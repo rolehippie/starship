@@ -1,0 +1,35 @@
+---
+name: readme
+
+"on":
+  push:
+    branches:
+      - master
+
+jobs:
+  readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.BOT_ACCESS_TOKEN }}
+
+      - name: Generate readme
+        uses: actionhippie/ansible-doctor@v1
+        with:
+          force: true
+          verbose: true
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: github@webhippie.de
+          add: README.md
+          message: "docs: automated readme update [skip ci]"
+          push: true
+          commit: --signoff
+
+...

@@ -1,0 +1,13 @@
+# Standards: 1.2
+---
+# @var starship_version:description: Version of the release to install
+# renovate: datasource=github-releases depName=starship/starship
+starship_version: 1.13.1
+
+# @var starship_arch:description: Architecture of the static binary
+starship_arch: "{{ ansible_architecture }}"
+
+# @var starship_download:description: URL to the archive of the release to install
+starship_download: "https://github.com/starship/starship/releases/download/v{{ starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz"
+
+...

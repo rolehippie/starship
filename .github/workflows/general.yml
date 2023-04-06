@@ -1,0 +1,45 @@
+---
+name: general
+
+"on":
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  linting:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Role linting
+        uses: actionhippie/ansible-later@v1
+
+  testing:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+
+      matrix:
+        scenario:
+          - default
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v3
+
+      - name: Molecule tests
+        uses: gofrolist/molecule-action@v2
+        with:
+          molecule_command: test
+          molecule_args: --scenario-name ${{ matrix.scenario }}
+        env:
+          ANSIBLE_FORCE_COLOR: "1"
+
+...

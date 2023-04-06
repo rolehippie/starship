@@ -1,0 +1,30 @@
+# Standards: 1.2
+---
+- name: Check existing install
+  register: starship_version_check
+  failed_when: False
+  changed_when: False
+  check_mode: False
+  shell: /usr/bin/starship --version 2>&1
+  tags:
+    - starship
+
+- name: Fact version change
+  set_fact:
+    starship_version_changed: "{{ starship_version_check.rc != 0 or (starship_version_check.stdout_lines is defined and starship_version not in starship_version_check.stdout_lines[0]) | bool }}"
+  tags:
+    - starship
+
+- name: Download release binary
+  when:
+    - starship_version_changed
+  unarchive:
+    src: "{{ starship_download }}"
+    dest: /usr/bin
+    remote_src: True
+    owner: root
+    group: root
+  tags:
+    - starship
+
+...
