@@ -62,7 +62,7 @@ Version of the release to install
 #### Default value
 
 ```YAML
-starship_version: 1.13.1
+starship_version: 1.14.1
 ```
 
 ## Discovered Tags
