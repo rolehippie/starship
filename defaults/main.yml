@@ -2,7 +2,7 @@
 ---
 # @var starship_version:description: Version of the release to install
 # renovate: datasource=github-releases depName=starship/starship
-starship_version: 1.15.0
+starship_version: 1.16.0
 
 # @var starship_arch:description: Architecture of the static binary
 starship_arch: "{{ ansible_architecture }}"
