@@ -10,4 +10,12 @@ starship_arch: "{{ ansible_architecture }}"
 # @var starship_download:description: URL to the archive of the release to install
 starship_download: "https://github.com/starship/starship/releases/download/v{{ starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz"
 
+# @var starship_install_directory:description: Directory in which to install the Starship binary
+starship_install_directory: "/usr/bin"
+
+# @var starship_owner:description: User who will own the Starship binary file
+starship_owner: root
+
+# @var starship_group:description: Group who will own the Starship binary file
+starship_group: root
 ...

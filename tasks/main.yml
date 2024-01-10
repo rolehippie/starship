@@ -1,29 +1,50 @@
 # Standards: 1.2
 ---
-- name: Check existing install
+- name: Get Latest Version
+  when: starship_version == "latest"
+  tags:
+    - starship
+  block:
+    - name: Check API for Latest Version
+      ansible.builtin.uri:
+        url: "https://api.github.com/repos/starship/starship/releases/latest"
+        return_content: true
+        body_format: json
+      register: latest_json
+
+    - name: Set starship_version to Latest
+      ansible.builtin.set_fact:
+        # Added the replace to maintain consistency with current inputs
+        starship_version: "{{ latest_json.json.tag_name | ansible.builtin.regex_replace('v', '') }}"
+
+- name: Check Existing Install
   register: starship_version_check
-  failed_when: False
-  changed_when: False
-  check_mode: False
-  shell: /usr/bin/starship --version 2>&1
+  failed_when: false
+  changed_when: false
+  check_mode: false
+  ansible.builtin.shell: "{{ starship_install_directory }}/starship --version 2>&1"
   tags:
     - starship
 
 - name: Fact version change
-  set_fact:
-    starship_version_changed: "{{ starship_version_check.rc != 0 or (starship_version_check.stdout_lines is defined and starship_version not in starship_version_check.stdout_lines[0]) | bool }}"
+  when:
+    # - starship_version_check.rc == 0
+    - starship_version_check.stdout_lines is defined
+    - starship_version not in starship_version_check.stdout_lines[0]
+  ansible.builtin.set_fact:
+    starship_version_changed: true
   tags:
     - starship
 
 - name: Download release binary
   when:
     - starship_version_changed
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ starship_download }}"
-    dest: /usr/bin
-    remote_src: True
-    owner: root
-    group: root
+    dest: "{{ starship_install_directory }}"
+    remote_src: true
+    owner: "{{ starship_owner }}"
+    group: "{{ starship_group }}"
   tags:
     - starship
 

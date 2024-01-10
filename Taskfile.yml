@@ -1,0 +1,14 @@
+version: "3"
+
+tasks:
+  test:
+    cmds:
+      - cmd: molecule test
+
+  test-all:
+    cmds:
+      - cmd: molecule test --all
+
+  test-latest:
+    cmds:
+      - cmd: molecule test -s latest
