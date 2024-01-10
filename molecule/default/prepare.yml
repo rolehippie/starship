@@ -2,19 +2,19 @@
 ---
 - name: Prepare
   hosts: all
-  gather_facts: false
+  gather_facts: False
 
   tasks:
     - name: Wait for aptlock
-      ansible.builtin.shell: while fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do echo 'Waiting for apt list lock.' && sleep 10; done
-      changed_when: false
+      shell: while fuser /var/lib/apt/lists/lock >/dev/null 2>&1; do echo 'Waiting for apt list lock.' && sleep 10; done
+      changed_when: False
 
     - name: Update package cache
-      ansible.builtin.apt:
-        update_cache: true
+      apt:
+        update_cache: True
 
     - name: Install gpg dependency
-      ansible.builtin.apt:
+      apt:
         name: python3-gpg
         state: present
 
