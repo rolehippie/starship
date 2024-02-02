@@ -1,6 +1,6 @@
 # starship
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/starship)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/starship)
 [![General Workflow](https://github.com/rolehippie/starship/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/starship/actions/workflows/general.yml)
 [![Readme Workflow](https://github.com/rolehippie/starship/actions/workflows/docs.yml/badge.svg)](https://github.com/rolehippie/starship/actions/workflows/docs.yml)
 [![Galaxy Workflow](https://github.com/rolehippie/starship/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/starship/actions/workflows/galaxy.yml)
@@ -23,6 +23,7 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [starship_install_directory](#starship_install_directory)
   - [starship_owner](#starship_owner)
   - [starship_version](#starship_version)
+  - [starship_version_changed](#starship_version_changed)
 - [Discovered Tags](#discovered-tags)
 - [Dependencies](#dependencies)
 - [License](#license)
@@ -33,6 +34,7 @@ Building and improving this Ansible role have been sponsored by my current and p
 ## Requirements
 
 - Minimum Ansible version: `2.10`
+
 
 ## Default Variables
 
@@ -59,7 +61,7 @@ starship_download: https://github.com/starship/starship/releases/download/v{{ st
 
 ### starship_group
 
-Group who will own the Starship binary file
+Group who will own the binary file
 
 #### Default value
 
@@ -69,7 +71,7 @@ starship_group: root
 
 ### starship_install_directory
 
-Directory in which to install the Starship binary
+Directory in which to install the binary
 
 #### Default value
 
@@ -79,7 +81,7 @@ starship_install_directory: /usr/bin
 
 ### starship_owner
 
-User who will own the Starship binary file
+User who will own the binary file
 
 #### Default value
 
@@ -96,6 +98,10 @@ Version of the release to install
 ```YAML
 starship_version: 1.17.1
 ```
+
+### starship_version_changed
+
+Fact to define if the version has changed
 
 ## Discovered Tags
 

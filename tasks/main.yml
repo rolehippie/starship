@@ -1,7 +1,7 @@
 # Standards: 1.2
 ---
 
-- name: Check Existing Install
+- name: Check existing install
   register: starship_version_check
   failed_when: False
   changed_when: False
