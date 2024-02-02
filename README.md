@@ -19,6 +19,9 @@ Building and improving this Ansible role have been sponsored by my current and p
 - [Default Variables](#default-variables)
   - [starship_arch](#starship_arch)
   - [starship_download](#starship_download)
+  - [starship_group](#starship_group)
+  - [starship_install_directory](#starship_install_directory)
+  - [starship_owner](#starship_owner)
   - [starship_version](#starship_version)
 - [Discovered Tags](#discovered-tags)
 - [Dependencies](#dependencies)
@@ -52,6 +55,36 @@ URL to the archive of the release to install
 ```YAML
 starship_download: https://github.com/starship/starship/releases/download/v{{ starship_version
   }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz
+```
+
+### starship_group
+
+Group who will own the Starship binary file
+
+#### Default value
+
+```YAML
+starship_group: root
+```
+
+### starship_install_directory
+
+Directory in which to install the Starship binary
+
+#### Default value
+
+```YAML
+starship_install_directory: /usr/bin
+```
+
+### starship_owner
+
+User who will own the Starship binary file
+
+#### Default value
+
+```YAML
+starship_owner: root
 ```
 
 ### starship_version
