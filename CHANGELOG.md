@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/rolehippie/starship/compare/v1.4.1...v1.5.0) (2024-02-02)
+
+
+### Features
+
+* integrate different install path and owner/group ([a665f30](https://github.com/rolehippie/starship/commit/a665f309863fa4c8fb3239974d9f6c8c3ad46ce5))
+
+
+### Bugfixes
+
+* minor wording fixes and make linter happy again ([7f5e7b7](https://github.com/rolehippie/starship/commit/7f5e7b713f4409ed6df0ef46ec8355a56c8bedfc))
+
 ## [1.4.1](https://github.com/rolehippie/starship/compare/v1.4.0...v1.4.1) (2024-01-08)
 
 
