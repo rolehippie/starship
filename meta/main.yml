@@ -15,7 +15,7 @@
 # Building and improving this Ansible role have been sponsored by my current and previous employers like **[Cloudpunks GmbH](https://cloudpunks.de)** and **[Proact Deutschland GmbH](https://www.proact.eu)**.
 # @end
 # @meta dependencies:value: >
-# [rolehippie.docker](https://github.com/rolehippie/docker)
+# None
 # @end
 galaxy_info:
   role_name: starship
