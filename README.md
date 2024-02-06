@@ -109,7 +109,7 @@ Fact to define if the version has changed
 
 ## Dependencies
 
-- [rolehippie.docker](https://github.com/rolehippie/docker)
+- None
 
 ## License
 
