@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.0](https://github.com/rolehippie/starship/compare/v1.5.0...v2.0.0) (2024-02-12)
+
+
+### Features
+
+* drop support for ubuntu 18.04 ([c56a55c](https://github.com/rolehippie/starship/commit/c56a55c6d40b75b4d09790e0a4fe94f8fa9df4eb))
+* used full qualified collection names ([defa540](https://github.com/rolehippie/starship/commit/defa54039dc31b626c7ec860e165fef35c3f1017))
+
 ## [1.5.0](https://github.com/rolehippie/starship/compare/v1.4.1...v1.5.0) (2024-02-02)
 
 
