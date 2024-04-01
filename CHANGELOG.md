@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/rolehippie/starship/compare/v2.1.0...v2.1.1) (2024-04-01)
+
+
+### Bugfixes
+
+* **deps:** update dependency starship/starship to v1.18.2 ([bdc77d3](https://github.com/rolehippie/starship/commit/bdc77d34b2f66df9dcd5b85fdbe1ce7b8f28ad3d))
+
 ## [2.1.0](https://github.com/rolehippie/starship/compare/v2.0.0...v2.1.0) (2024-03-25)
 
 
