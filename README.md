@@ -95,7 +95,7 @@ Version of the release to install
 #### Default value
 
 ```YAML
-starship_version: 1.20.1
+starship_version: 1.21.0
 ```
 
 ### starship_version_changed
