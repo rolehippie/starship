@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.6.0](https://github.com/rolehippie/starship/compare/v2.5.0...v2.6.0) (2025-04-28)
+
+
+### Features
+
+* **deps:** update dependency starship/starship to v1.23.0 ([#42](https://github.com/rolehippie/starship/issues/42)) ([d1eabea](https://github.com/rolehippie/starship/commit/d1eabea074e2516d3296f49bad1cfae4795e48a7))
+
 ## [2.5.0](https://github.com/rolehippie/starship/compare/v2.4.0...v2.5.0) (2025-01-13)
 
 
