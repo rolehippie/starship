@@ -1,4 +1,4 @@
-# starship
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/starship)
 [![General Workflow](https://github.com/rolehippie/starship/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/starship/actions/workflows/general.yml)
@@ -54,8 +54,8 @@ URL to the archive of the release to install
 #### Default value
 
 ```YAML
-starship_download: https://github.com/starship/starship/releases/download/v{{ starship_version
-  }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz
+starship_download: https://github.com/starship/starship/releases/download/v{{ 
+  starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz
 ```
 
 ### starship_group
@@ -105,7 +105,6 @@ Fact to define if the version has changed
 ## Discovered Tags
 
 **_starship_**
-
 
 ## Dependencies
 
