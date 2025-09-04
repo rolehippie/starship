@@ -102,6 +102,12 @@ starship_version: 1.23.0
 
 Fact to define if the version has changed
 
+#### Default value
+
+```YAML
+starship_version_changed: false
+```
+
 ## Discovered Tags
 
 **_starship_**
