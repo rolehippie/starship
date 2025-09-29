@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.7.0](https://github.com/rolehippie/starship/compare/v2.6.0...v2.7.0) (2025-09-29)
+
+
+### Features
+
+* apply new repo structure and update linting and integrate noble ([7bdab4b](https://github.com/rolehippie/starship/commit/7bdab4b0d512e26f9afe456e522918af8855d41c))
+
 ## [2.6.0](https://github.com/rolehippie/starship/compare/v2.5.0...v2.6.0) (2025-04-28)
 
 
