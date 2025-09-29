@@ -4,7 +4,7 @@
 starship_version: 1.23.0
 
 # @var starship_arch:description: Architecture of the static binary
-starship_arch: "{{ ansible_architecture }}"
+starship_arch: "{{ 'aarch64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'x86_64' }}"
 
 # @var starship_download:description: URL to the archive of the release to install
 starship_download: "https://github.com/starship/starship/releases/download/v{{ starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz"

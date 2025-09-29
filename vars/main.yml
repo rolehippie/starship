@@ -1,5 +1,5 @@
 ---
 # @var starship_version_changed:description: Fact to define if the version has changed
-starship_version_changed: False
+starship_version_changed: false
 
 ...

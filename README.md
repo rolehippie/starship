@@ -1,4 +1,4 @@
-# workspace
+# starship
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/starship)
 [![General Workflow](https://github.com/rolehippie/starship/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/starship/actions/workflows/general.yml)
@@ -44,7 +44,8 @@ Architecture of the static binary
 #### Default value
 
 ```YAML
-starship_arch: '{{ ansible_architecture }}'
+starship_arch: "{{ 'aarch64' if ansible_architecture == 'aarch64' or ansible_architecture
+  == 'arm64' else 'x86_64' }}"
 ```
 
 ### starship_download

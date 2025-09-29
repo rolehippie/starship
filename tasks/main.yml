@@ -2,9 +2,9 @@
 
 - name: Check existing install
   register: starship_version_check
-  failed_when: False
-  changed_when: False
-  check_mode: False
+  failed_when: false
+  changed_when: false
+  check_mode: false
   ansible.builtin.shell: "{{ starship_install_directory }}/starship --version 2>&1"
   tags:
     - starship
@@ -14,7 +14,7 @@
     - starship_version_check.stdout_lines is defined
     - starship_version not in starship_version_check.stdout_lines[0]
   ansible.builtin.set_fact:
-    starship_version_changed: True
+    starship_version_changed: true
   tags:
     - starship
 
@@ -24,7 +24,7 @@
   ansible.builtin.unarchive:
     src: "{{ starship_download }}"
     dest: "{{ starship_install_directory }}"
-    remote_src: True
+    remote_src: true
     owner: "{{ starship_owner }}"
     group: "{{ starship_group }}"
   tags:
