@@ -23,7 +23,6 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [starship_install_directory](#starship_install_directory)
   - [starship_owner](#starship_owner)
   - [starship_version](#starship_version)
-  - [starship_version_changed](#starship_version_changed)
 - [Discovered Tags](#discovered-tags)
 - [Dependencies](#dependencies)
 - [License](#license)
@@ -44,8 +43,7 @@ Architecture of the static binary
 #### Default value
 
 ```YAML
-starship_arch: "{{ 'aarch64' if ansible_architecture == 'aarch64' or ansible_architecture
-  == 'arm64' else 'x86_64' }}"
+starship_arch: "{{ 'aarch64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'x86_64' }}"
 ```
 
 ### starship_download
@@ -55,8 +53,7 @@ URL to the archive of the release to install
 #### Default value
 
 ```YAML
-starship_download: https://github.com/starship/starship/releases/download/v{{ 
-  starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz
+starship_download: https://github.com/starship/starship/releases/download/v{{ starship_version }}/starship-{{ starship_arch }}-unknown-linux-musl.tar.gz
 ```
 
 ### starship_group
@@ -97,16 +94,6 @@ Version of the release to install
 
 ```YAML
 starship_version: 1.24.2
-```
-
-### starship_version_changed
-
-Fact to define if the version has changed
-
-#### Default value
-
-```YAML
-starship_version_changed: false
 ```
 
 ## Discovered Tags
