@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.9.0](https://github.com/rolehippie/starship/compare/v2.8.2...v2.9.0) (2026-04-20)
+
+### Dependencies
+
+* **minor:** update dependency starship/starship to v1.25.0 ([#72](https://github.com/rolehippie/starship/issues/72)) ([4709aae](https://github.com/rolehippie/starship/commit/4709aae47caceac6e67d20b8f81e45e55eb3cd2d))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([b384112](https://github.com/rolehippie/starship/commit/b384112c316cd25787c6f90cbe28f313f34bc104))
+* **flake:** updated lockfile [skip ci] ([cc5cb41](https://github.com/rolehippie/starship/commit/cc5cb41529eb1ad4f47c1a2c7b54d9f38068025e))
+* **flake:** updated lockfile [skip ci] ([430148b](https://github.com/rolehippie/starship/commit/430148b6220f0089ef68dcfe4c1b1b4552a78012))
+* **flake:** updated lockfile [skip ci] ([c16ee2f](https://github.com/rolehippie/starship/commit/c16ee2fed0d742c5e09693c5c6cdf7ed77b22629))
+* **flake:** updated lockfile [skip ci] ([edf94bf](https://github.com/rolehippie/starship/commit/edf94bf7dcb4afce180010e015b0b3f646413414))
+* **flake:** updated lockfile [skip ci] ([26be19f](https://github.com/rolehippie/starship/commit/26be19f7fc9b7ca05dabef88b6062e626e0fa305))
+* **flake:** updated lockfile [skip ci] ([de3478d](https://github.com/rolehippie/starship/commit/de3478d8fa1b3b120f3efcbba3c4b82b35503127))
+* **flake:** updated lockfile [skip ci] ([5f64917](https://github.com/rolehippie/starship/commit/5f6491712e76744c5bfee62c04a3bb025507f728))
+* **flake:** updated lockfile [skip ci] ([75da9e6](https://github.com/rolehippie/starship/commit/75da9e63848b8f8b4411cde28b5fbee31b6e402b))
+* **flake:** updated lockfile [skip ci] ([47909cd](https://github.com/rolehippie/starship/commit/47909cd881e8660b14cc44965472a8d281f222ac))
+* **flake:** updated lockfile [skip ci] ([c272893](https://github.com/rolehippie/starship/commit/c272893eed653a236eabec6431dd695135c2347a))
+* **flake:** updated lockfile [skip ci] ([d1c7e02](https://github.com/rolehippie/starship/commit/d1c7e02300133be447ef6077cf1c48620adeb51e))
+* **flake:** updated lockfile [skip ci] ([f6e6b75](https://github.com/rolehippie/starship/commit/f6e6b75e68c643c37ac867138d174ca0a02c2730))
+* **flake:** updated lockfile [skip ci] ([b6f15bd](https://github.com/rolehippie/starship/commit/b6f15bddb64da5f736706c73a167026c9105202f))
+* **flake:** updated lockfile [skip ci] ([41c551f](https://github.com/rolehippie/starship/commit/41c551f5b0fe5ca9210c37bc9cfe69affa501001))
+
 ## [2.8.2](https://github.com/rolehippie/starship/compare/v2.8.1...v2.8.2) (2026-01-05)
 
 
