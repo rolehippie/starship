@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.9.1](https://github.com/rolehippie/starship/compare/v2.9.0...v2.9.1) (2026-05-04)
+
+### Dependencies
+
+* **patch:** update dependency starship/starship to v1.25.1 ([#73](https://github.com/rolehippie/starship/issues/73)) ([e994102](https://github.com/rolehippie/starship/commit/e994102b39ad4655b96e0151feea8281348f117c))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([5508a01](https://github.com/rolehippie/starship/commit/5508a0161c14e84f8ca455b579d9a87c736fb277))
+* **flake:** updated lockfile [skip ci] ([3b12004](https://github.com/rolehippie/starship/commit/3b12004c1dc25626e89378a33b6e9f3a7b960433))
+
 ## [2.9.0](https://github.com/rolehippie/starship/compare/v2.8.2...v2.9.0) (2026-04-20)
 
 ### Dependencies
