@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.10.0](https://github.com/rolehippie/starship/compare/v2.9.1...v2.10.0) (2026-06-29)
+
 ## [2.9.1](https://github.com/rolehippie/starship/compare/v2.9.0...v2.9.1) (2026-05-04)
 
 ### Dependencies
