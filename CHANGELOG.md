@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.12.0](https://github.com/rolehippie/starship/compare/v2.11.0...v2.12.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#80](https://github.com/rolehippie/starship/issues/80)) ([e3b7151](https://github.com/rolehippie/starship/commit/e3b71510799e28fdbb41099cbc4c1a7799d7f70c))
+* **patch:** update dependency python to v3.14.7 ([#78](https://github.com/rolehippie/starship/issues/78)) ([ccebf24](https://github.com/rolehippie/starship/commit/ccebf24bb9e4a2037e6c875ff5d63c5d97bf6d5b))
+
 ## [2.11.0](https://github.com/rolehippie/starship/compare/v2.10.0...v2.11.0) (2026-07-27)
 
 ## [2.10.0](https://github.com/rolehippie/starship/compare/v2.9.1...v2.10.0) (2026-06-29)
