@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.13.0](https://github.com/rolehippie/starship/compare/v2.12.0...v2.13.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#83](https://github.com/rolehippie/starship/issues/83)) ([b444665](https://github.com/rolehippie/starship/commit/b44466547602bd3741e841c143c65b65569f5235))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#84](https://github.com/rolehippie/starship/issues/84)) ([3cda037](https://github.com/rolehippie/starship/commit/3cda03796a27f6c88b3fb4b0c9a820b0dd3681d5))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#81](https://github.com/rolehippie/starship/issues/81)) ([717f70b](https://github.com/rolehippie/starship/commit/717f70ba17bd468414bb192d0e1e995080cc05bd))
+* **patch:** update dependency pre-commit to v4.6.2 ([#82](https://github.com/rolehippie/starship/issues/82)) ([c2ad983](https://github.com/rolehippie/starship/commit/c2ad9836882cf2fafd27460aa96bf27c61878944))
+
 ## [2.12.0](https://github.com/rolehippie/starship/compare/v2.11.0...v2.12.0) (2026-08-10)
 
 ### Dependencies
