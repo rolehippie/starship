@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.14.0](https://github.com/rolehippie/starship/compare/v2.13.1...v2.14.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([bb111f0](https://github.com/rolehippie/starship/commit/bb111f01f1bb2abf3beeddff3c2e7896c7ba7cd7))
+* use new required facts as attributes ([844c558](https://github.com/rolehippie/starship/commit/844c558a4a1bb845b46f20467370416b30842ba8))
+
 ## [2.13.1](https://github.com/rolehippie/starship/compare/v2.13.0...v2.13.1) (2026-08-31)
 
 ### Dependencies
