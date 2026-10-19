@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.15.0](https://github.com/rolehippie/starship/compare/v2.14.0...v2.15.0) (2026-10-19)
+
+### Dependencies
+
+* **minor:** update dependency starship/starship to v1.27.0 ([#99](https://github.com/rolehippie/starship/issues/99)) ([d63ce1e](https://github.com/rolehippie/starship/commit/d63ce1e784fe9fa1fec7799e6bb5010ac57f6d9c))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#86](https://github.com/rolehippie/starship/issues/86)) ([ddb660b](https://github.com/rolehippie/starship/commit/ddb660b33403901b30f967c3c3e65c47254d4485))
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#94](https://github.com/rolehippie/starship/issues/94)) ([54dc43c](https://github.com/rolehippie/starship/commit/54dc43c2715c8efdfa4558d0416e91f8a66b8607))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#88](https://github.com/rolehippie/starship/issues/88)) ([8bc9646](https://github.com/rolehippie/starship/commit/8bc9646d98a1899871eb30987de214c18861a56a))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.3 ([#95](https://github.com/rolehippie/starship/issues/95)) ([b4cf0aa](https://github.com/rolehippie/starship/commit/b4cf0aa53b72e2235adaf8ce81e3d99fdc7de509))
+* **mise:** update dependency pipx:ansible-lint to v26.10.0 ([#96](https://github.com/rolehippie/starship/issues/96)) ([4023489](https://github.com/rolehippie/starship/commit/40234899be829b4a52ca6b4dcaeb90b4c9d4b7ca))
+* **mise:** update dependency pipx:ansible-lint to v26.10.1 ([#98](https://github.com/rolehippie/starship/issues/98)) ([2b65549](https://github.com/rolehippie/starship/commit/2b65549248697a107fab56ecf4d8141fa4be6196))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#89](https://github.com/rolehippie/starship/issues/89)) ([2fca649](https://github.com/rolehippie/starship/commit/2fca64926cbbf8967bcd68e1761859577d62a009))
+* **mise:** update dependency pipx:molecule to v26.10.0 ([#97](https://github.com/rolehippie/starship/issues/97)) ([329b282](https://github.com/rolehippie/starship/commit/329b282c20a23bc7a9c6f72a0ab027699d74754d))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#90](https://github.com/rolehippie/starship/issues/90)) ([71fc75b](https://github.com/rolehippie/starship/commit/71fc75b5550cb218f3685d43cc549fa163433a2b))
+* **mise:** update dependency prek to v0.5.3 ([#87](https://github.com/rolehippie/starship/issues/87)) ([e018ca6](https://github.com/rolehippie/starship/commit/e018ca607c51201c8ec93a400ed4c71308d40433))
+* **mise:** update dependency prek to v0.5.4 ([#91](https://github.com/rolehippie/starship/issues/91)) ([c929b5d](https://github.com/rolehippie/starship/commit/c929b5d3eead553f315a7df5bd9a14a40ae53f01))
+* **mise:** update dependency prek to v0.5.5 ([#93](https://github.com/rolehippie/starship/issues/93)) ([d0e631d](https://github.com/rolehippie/starship/commit/d0e631d34f9243bdda307eb936f9003ca468969f))
+* **mise:** update dependency prek to v0.5.6 ([#100](https://github.com/rolehippie/starship/issues/100)) ([b6bfb19](https://github.com/rolehippie/starship/commit/b6bfb193dede70e55a9c19f4a0bd16e8947ba705))
+
 ## [2.14.0](https://github.com/rolehippie/starship/compare/v2.13.1...v2.14.0) (2026-09-07)
 
 ### Features
